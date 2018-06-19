@@ -1,5 +1,5 @@
 # CountryPedia
-Find basic informations about country! URLSession + data form API, MapKit, AutoLeyout
+Find basic informations about country! URLSession + data form API, MapKit, AutoLayout
 
 
 ![simulator screen shot - iphone x - 2018-06-19 at 11 53 35](https://user-images.githubusercontent.com/25548451/41590585-a0ad45fc-73b7-11e8-93ce-e857f4bdc652.png)
