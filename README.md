@@ -5,6 +5,7 @@ Find basic informations about country! URLSession + data form API, MapKit, AutoL
 ![simulator screen shot - iphone x - 2018-06-19 at 11 53 35](https://user-images.githubusercontent.com/25548451/41590585-a0ad45fc-73b7-11e8-93ce-e857f4bdc652.png)
 
 
+![simulator screen shot - iphone x - 2018-06-19 at 11 59 18](https://user-images.githubusercontent.com/25548451/41590811-4087c872-73b8-11e8-8d5c-38dd05cb4eda.png)
 
 
 
