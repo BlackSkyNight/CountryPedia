@@ -224,25 +224,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         do
         {
-            try Country.GetCountriesInformations(completion: { (results: [Country]?) in
-                if let country = results
-                {
-                    DispatchQueue.main.async
-                    {
+            try NetworkingLayer.sharedInstance.GetData(Url: "all", completionHandler: { (result: Wrapper<Country>) in
+                let result = result
+                result.status! ? print("success") : print(result.exceptionMessage)
+                if let countries = result.returnedData {
+                    DispatchQueue.main.async {
                         self.tableView.reloadData()
                     }
-                    self.countriesData = country
-                    self.filtredCountriesData = self.countriesData
+                    self.countriesData = countries
+                    self.filtredCountriesData = countries
                     self.loaded = true
                     
-                    DispatchQueue.main.sync
-                    {
-                        if (self.refresher.isRefreshing ==  false)
-                        {
+                    DispatchQueue.main.sync {
+                        if (self.refresher.isRefreshing ==  false) {
                             self.spinnerIndicator.stop()
-                        }
-                        else
-                        {
+                        } else {
                             self.refresher.endRefreshing()
                         }
                         self.animateTable()

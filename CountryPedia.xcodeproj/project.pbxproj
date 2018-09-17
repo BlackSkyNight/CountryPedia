@@ -19,6 +19,8 @@
 		B3A2E4A020A7255000F50074 /* SpinnerActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A2E49F20A7255000F50074 /* SpinnerActivityIndicatorView.swift */; };
 		B3ACDB6320A9B7A100DDD7FA /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ACDB6220A9B7A100DDD7FA /* DetailTableViewController.swift */; };
 		B3AD195320D9084600F45D60 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AD195220D9084600F45D60 /* Default-568h@2x.png */; };
+		B3F8A0BC215015A300E141C4 /* NetworkingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8A0BB215015A300E141C4 /* NetworkingLayer.swift */; };
+		B3F8A0BE2150325600E141C4 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8A0BD2150325600E141C4 /* Wrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		B3A2E49F20A7255000F50074 /* SpinnerActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerActivityIndicatorView.swift; sourceTree = "<group>"; };
 		B3ACDB6220A9B7A100DDD7FA /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		B3AD195220D9084600F45D60 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3F8A0BB215015A300E141C4 /* NetworkingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLayer.swift; sourceTree = "<group>"; };
+		B3F8A0BD2150325600E141C4 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 			children = (
 				B3A2E49F20A7255000F50074 /* SpinnerActivityIndicatorView.swift */,
 				B34DF6F520A4420F00A22552 /* Country.swift */,
+				B3F8A0BB215015A300E141C4 /* NetworkingLayer.swift */,
+				B3F8A0BD2150325600E141C4 /* Wrapper.swift */,
 			);
 			path = "DesignElements+Data";
 			sourceTree = "<group>";
@@ -242,7 +248,9 @@
 			files = (
 				B3ACDB6320A9B7A100DDD7FA /* DetailTableViewController.swift in Sources */,
 				B34DF6F620A4420F00A22552 /* Country.swift in Sources */,
+				B3F8A0BE2150325600E141C4 /* Wrapper.swift in Sources */,
 				B3A2E4A020A7255000F50074 /* SpinnerActivityIndicatorView.swift in Sources */,
+				B3F8A0BC215015A300E141C4 /* NetworkingLayer.swift in Sources */,
 				B34DF6DB20A4402A00A22552 /* IndoorwayApp.xcdatamodeld in Sources */,
 				B34DF6D520A4402A00A22552 /* ViewController.swift in Sources */,
 				B34DF6D320A4402A00A22552 /* AppDelegate.swift in Sources */,
